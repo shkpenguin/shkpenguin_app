@@ -1,0 +1,16 @@
+/* Ensure #root container is properly set */
+#root {
+  
+}
+
+/* Title alignment for the pages */
+.title {
+  font-size: 1.5rem;
+  line-height: 1.15;
+  color: #000000;
+  margin: 0; /* Remove extra margin */
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Ensure it takes full width */
+  display: block; /* Make sure it's block-level */
+  margin-top: 0; /* Ensure no top margin is pushing it down */
+}
